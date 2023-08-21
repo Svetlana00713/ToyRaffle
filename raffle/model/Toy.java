@@ -1,4 +1,4 @@
-package raffle.MVP.model;
+package raffle.model;
 
 @SuppressWarnings("ALL")
 public class Toy implements Comparable<Toy> {

@@ -1,8 +1,8 @@
-package raffle.MVP;
+package raffle;
 
-import raffle.MVP.model.Raffle;
-import raffle.MVP.model.Toy;
-import raffle.MVP.view.Interface;
+import raffle.model.Raffle;
+import raffle.model.Toy;
+import raffle.view.Interface;
 import save.Path;
 
 import java.io.FileWriter;
@@ -14,9 +14,9 @@ public class Presenter {
     private final Interface view;
 
 
-    public Presenter(Interface view, String pathDb) {
+    public Presenter(Interface view, String path) {
         this.view = view;
-        raffle = new Raffle (pathDb);
+        raffle = new Raffle (path);
     }
 
     public void putForRaffle() {
