@@ -1,6 +1,6 @@
-package raffle.MVP.view;
+package raffle.view;
 
-import raffle.MVP.model.Toy;
+import raffle.model.Toy;
 
 import java.util.List;
 import java.util.Scanner;

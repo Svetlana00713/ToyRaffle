@@ -1,7 +1,7 @@
-package raffle.MVP.view;
+package raffle.view;
 
-import raffle.MVP.Presenter;
-import raffle.MVP.model.Toy;
+import raffle.Presenter;
+import raffle.model.Toy;
 import save.Path;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package raffle.MVP.model;
+package raffle.model;
 
 import java.util.ArrayList;
 import java.util.List;

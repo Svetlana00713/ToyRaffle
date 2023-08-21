@@ -1,4 +1,4 @@
-package raffle.MVP.model;
+package raffle.model;
 
 import java.io.*;
 import java.util.List;
